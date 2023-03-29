@@ -6,14 +6,14 @@
 
 @font-face {
   font-family: "ArchivoMedium";
-  src: url("./Archivo-Medium.woff2") format("woff2"),
-    url("./Archivo-Medium.woff") format("woff");
+  src: url("./fonts/Archivo-Medium.woff2") format("woff2"),
+    url("./fonts/Archivo-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "NosiferRegular";
-  src: url("./Nosifer-Regular.woff2") format("woff2"),
-    url("./Nosifer-Regular.woff") format("woff");
+  src: url("./fonts/Nosifer-Regular.woff2") format("woff2"),
+    url("./fonts/Nosifer-Regular.woff") format("woff");
 }
 
 * {
@@ -22,6 +22,32 @@
   box-sizing: border-box;
 }
 
+#content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "ArchivoMedium";
+  text-align: center;
+  background: linear-gradient(49deg, #6314e8, #97c9d6, #d97e92, #865859);
+  background-size: 240% 240%;
+  animation: gradient-animation 16s ease infinite;
+}
+
 h1 {
   font-family: "FlavorsRegular";
+}
+
+/* Background Animation */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
