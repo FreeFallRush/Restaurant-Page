@@ -25,7 +25,8 @@
 :root {
   --primary-color: #000000;
   --secondary-color: #eef7ab;
-  --heading-color: #4695a4;
+  --h2-color: #f09ee8;
+  --h3-color: #4695a4;
   --main-background: linear-gradient(49deg, #6314e8, #97c9d6, #d97e92, #865859);
   --main-box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px,
     rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
@@ -41,7 +42,9 @@
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   --black-border: 1px dotted #000000;
   --yellow-border: 1px dotted #eef7ab;
+  --thicker-black-border: 3px dotted black;
   --h1-text-shadow: 4px 4px 2px rgba(145, 142, 142, 0.6);
+  --h2-text-shadow: 2px 4px 2px rgba(129, 129, 129, 0.6);
 }
 #content {
   width: 100%;
@@ -100,10 +103,18 @@ h1 {
   padding: 15px 0;
 }
 
+h2 {
+  font-family: "NosiferRegular";
+  font-size: 1.8rem;
+  color: var(--h2-color);
+  text-shadow: var(--h2-text-shadow);
+  text-decoration: underline;
+}
+
 h3 {
   font-family: "NosiferRegular";
   font-size: 1.5rem;
-  color: var(--heading-color);
+  color: var(--h3-color);
   padding-bottom: 8px;
 }
 
@@ -141,6 +152,33 @@ li {
 .location,
 .open-hours {
   margin-top: 20px;
+}
+
+/* Menu-Page */
+
+.menu-options {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item {
+  width: 550px;
+  height: auto;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border: var(--thicker-black-border);
+}
+
+.menu-item img {
+  width: 520px;
+  height: auto;
+}
+.menu-item p,
+.menu-item h3 {
+  padding: 10px;
 }
 
 /* Background Animation */
