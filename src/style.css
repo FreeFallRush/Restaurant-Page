@@ -270,3 +270,45 @@ form {
     background-position: 0% 50%;
   }
 }
+
+
+@media all and (max-width: 920px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    #content {
+      width: 100%;
+      height: auto;
+      padding: 30px 0;
+    }
+    #main {
+      width: 90%;
+      height: auto;
+    }
+  
+    .description,
+    .open-hours,
+    .location,
+    .menu-item,
+    .menu-item img,
+    .form-container {
+      width: 100%;
+      height: auto;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+    form,
+    .phone-data,
+    .location-data,
+    .mail-data {
+      width: 98%;
+      height: auto;
+    }
+    input,
+    #message {
+      width: 200px;
+      height: auto;
+    }
+  }
