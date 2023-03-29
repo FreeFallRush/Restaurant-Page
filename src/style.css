@@ -4,6 +4,18 @@
     url("./fonts/Flavors-Regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: "ArchivoMedium";
+  src: url("./Archivo-Medium.woff2") format("woff2"),
+    url("./Archivo-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "NosiferRegular";
+  src: url("./Nosifer-Regular.woff2") format("woff2"),
+    url("./Nosifer-Regular.woff") format("woff");
+}
+
 * {
   padding: 0;
   margin: 0;
