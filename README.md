@@ -6,6 +6,6 @@ The project asks to dynamically render a simple restaurant homepage and make use
 
 ---> [view project](https://freefallrush.github.io/Restaurant-Page/) <----
 
-[![ezgif-com-video-to-gif.gif](https://i.postimg.cc/TYbrRDKB/ezgif-com-video-to-gif.gif)](https://postimg.cc/nCHs2MY1)
+[![preview-restaurantpage.gif](https://i.postimg.cc/3JPHPW6L/preview-restaurantpage.gif)](https://postimg.cc/Xpch5NnF)
 
 With this exercise I've learned better how to use and configure webpack (for fonts, css, images). I also learned how to deploy a webpack site on github and how to make it visible on GitHub Pages.
