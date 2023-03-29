@@ -1,5 +1,6 @@
 import pageLoad from "./page-load.js";
 import createMenuPage from "./menu-page.js";
+import createContactPage from "./contact-page.js";
 
 const createTabs = () => {
   const content = document.querySelector("#content");
